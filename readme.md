@@ -19,8 +19,8 @@ Well, that's another thing. You may not be able to use it at all. It's really de
 
 Let me drop the basics on you. To begin, I place the `acf_options.php` file and the `cf_options` folder into a `/lib` or `/includes` folder in the root of my theme. Make sure to edit the `$template_location` variable in the `cf_options.php` file to reflect the correct directory.
 
-Then I import the `acf-field-group-export.json` file through ACF's import interface. I've also included the exported field group as a php file (`acf-field-group-export.php`) you could use in your `functions.php` file. I don't particularly like this method because it makes it more difficult to make changes to the fields. 
+Then I import the `acf-field-group-export.json` file through ACF's import interface. I've also included the exported field group as a php file (`acf-field-group-export.php`) you could use in your themes `functions.php` file. I don't particularly like this method because it makes it more difficult to make changes to the fields. 
 
-I've also included some custom styles that pertain to these particular elements in the `cf-options-styles.css` file. Import these into your own project if you'd like to use them. 
+I've also included some custom styles that pertain to these particular elements in the `acf-options-styles.css` file. Import these into your own project if you'd like to use them. 
 
 That should be about it. Your mileage may vary.
