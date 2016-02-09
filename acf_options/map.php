@@ -7,7 +7,8 @@
 <?php if(get_sub_field('map')){ ?>
 
 	<?php
-		require_once locate_template('/lib/acf_options/gmap.php');
+		$template_location = '/lib'; // Location within your template folder. Change for your own use. In this example this would equate to http://www.example.com/wp-content/themes/[theme-name]/lib
+		require_once locate_template( $template_location . '/acf_options/gmap.php' );
 		$eClass = get_sub_field('element_class');
 		$height = get_sub_field('map_height');
 		$uniqueID = 'eID-'.get_sub_field('unique_id');

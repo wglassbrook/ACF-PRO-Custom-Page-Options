@@ -21,7 +21,7 @@
  */
 
 /**
- * Set your color scheme below
+ * Set your custom color scheme below
  */
 $calColorBgDark      = '#79901C';	// dark background color
 $calColorTextOnDark  = '#ffffff';	// text appearing on top of dark bg color
