@@ -15,7 +15,7 @@ While ACF's documentation and help forum is extensive, at first glance, it's a b
 
 **"Keen! How do I use it?"**  
 
-Well, that's another thing. You may not be able to use it at all. It's really dependent on your project. As it's written at the moment, it's meant to be applied to a theme using Bootstrap and has a lot of Bootstrap dependent classes and design patterns. That being said, I have used a very similar set of code on a Foundation 4 based WP theme several times in the past.
+Well, that's another thing. You may not be able to use it at all. It's really dependent on your project. As it's written at the moment, it's meant to be applied to a theme using Bootstrap and has a lot of Bootstrap dependent classes and design patterns. That being said, I have used a very similar set of code on a Foundation 4 based WP theme several times in the past. Peal the code apart and it should be pretty simple to see how you would/could modify it for your needs.
 
 Let me drop the basics on you. To begin, I place the `cf_options.php` file and the `cf_options` folder into a `/lib` or `/includes` folder in the root of my theme. Make sure to edit the `$template_location` variable in the `cf_options.php` file to reflect the correct directory.
 
